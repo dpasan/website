@@ -73,7 +73,7 @@ function init() {
 
 
 //scrollspy
-$('body').scrollspy({ target: '#navbar-example' })
+$('body').scrollspy({target: ".navbar"})
 
 //scrollspy refresh
 $('[data-spy="scroll"]').each(function () {

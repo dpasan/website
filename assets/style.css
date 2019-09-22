@@ -7,11 +7,10 @@
     box-sizing: border-box;
 }
 
-/*
-body{
+body {
     position: relative;
+    height: 100px;
 }
-*/
 
 header {
     text-align: center;
@@ -44,7 +43,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    color: #aaa;
+    color: #000;
 }
 
 /*cursor*/
@@ -80,6 +79,24 @@ h2 {
 
 #title {
     text-align: center;
+    padding: 20px;
+}
+
+#about{
+    padding-top: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+
+#about p{
+    text-align: center;
+    font-weight: 200;
+}
+
+#section2{
+    height: 500px;
 }
 
 .port-cta {
@@ -111,7 +128,7 @@ h2 {
 }
 
 .port-content {
-    background-color: #293347;
+    background-color: #66d9ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +197,50 @@ button:focus {
     outline: none;
 }
 
+#pic1 {
+    background-image: url(https://media.giphy.com/media/TFA5yuQIIoVUc/giphy.gif);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic2{
+    background-image: url(img/pic2.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic3 {
+    background-image: url(img/pic3.jpeg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:768px){
+    #pic1{
+        width: 500px;
+        height: 500px;
+        background-position: center;
+    }
+    #pic2{
+        width: 500px;
+        height: 500px;
+        background-position: center;
+    }
+    #pic3{
+        width: 500px;
+        height: 500px;
+        background-position: center;
+    }
+}
 
 form {
     background-color: #ffffff;
